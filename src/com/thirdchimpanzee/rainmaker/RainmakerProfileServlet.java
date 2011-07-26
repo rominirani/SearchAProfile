@@ -27,7 +27,7 @@ import com.thirdchimpanzee.rainmaker.utils.AppUtils;
 
 @SuppressWarnings("serial")
 public class RainmakerProfileServlet extends HttpServlet {
-	public static final String API_KEY = "7cd7d138a03115f4";
+	public static final String API_KEY = "YOUR_RAINMAKER_API_KEY";
 	public static String APICall = "http://api.rainmaker.cc/v1/person.json?apiKey="+API_KEY+"&timeoutSeconds=30&email=";
 	public static final Logger _log = Logger.getLogger(RainmakerProfileServlet.class.getName());
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
