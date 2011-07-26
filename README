@@ -1,0 +1,11 @@
+ABOUT
+*****
+The quickest way to get information about an email address. All you need to do is provide an Email Address and in return, it fetches information like:
+Demographics like Age, Sex, Geographical location where the contact resides
+Contact Handles for various services like Google Chat, Skype, etc.
+Social Profiles at LinkedIn, Twitter, Facebook, Foursquare, Google Profile, Friendster, MySpace, etc.
+Employment History.
+
+Building the Project
+********************
+This is a Google App Engine project. You will need to import the project into your Eclipse Workspace and add the necessary App Engine JAR files.
